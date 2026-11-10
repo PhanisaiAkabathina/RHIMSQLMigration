@@ -1,0 +1,12 @@
+{
+	"name": "MSSQL-OnPrem",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/458b5fb6-21e1-42ca-930e-7e879878426e/resourcegroups/rgdevchevronproject/providers/Microsoft.DataFactory/factories/adfdevchevronproject17/integrationruntimes/OnPrem",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

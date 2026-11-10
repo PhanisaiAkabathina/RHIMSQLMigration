@@ -1,0 +1,15 @@
+{
+	"name": "ADFRHIMSQLMigrationProject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fd5206b6-8802-4caf-8577-1f6d08cafac9",
+		"tenantId": "5a0b1baa-ec94-4f05-a8b5-9c182ad14127"
+	}
+}

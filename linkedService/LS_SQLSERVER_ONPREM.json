@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQLSERVER_ONPREM",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "PHANI-SAI\\SQLEXPRESS",
+			"database": "RHIM_SQL_DataMigration",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjMDRiZmU2My1lNmZjLTQwM2ItYjdlOC1kYmU4ZTU5MDI0NzYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "MSSQL-OnPrem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
