@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFRHIMSQLMigrationProject"
+		},
+		"LS_ADLS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_ONPREM_password": {
+			"value": ""
+		},
+		"LS_ADLS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlssinkrhimproject.dfs.core.windows.net"
+		},
+		"LS_SQLSERVER_ONPREM_properties_typeProperties_server": {
+			"value": "PHANI-SAI\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_ONPREM_properties_typeProperties_database": {
+			"value": "RHIM_SQL_DataMigration"
+		},
+		"LS_SQLSERVER_ONPREM_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"MSSQL-OnPrem_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/458b5fb6-21e1-42ca-930e-7e879878426e/resourcegroups/rgdevchevronproject/providers/Microsoft.DataFactory/factories/adfdevchevronproject17/integrationruntimes/OnPrem"
+		}
+	}
+}
